@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author c_qiancheng
+ */
 @RestController
 public class HelloController {
 
@@ -12,7 +15,7 @@ public class HelloController {
     @ApiOperation(value="hello", notes="欢迎信息")
     @ApiImplicitParam(name="name", value="姓名", required=true, dataType="String")
     public String hello(String name) {
-        return "Hello! Here is Spring Boot!";
+        return "Hello, Qian Cheng! Here is Spring Boot!";
     }
 
 }

@@ -1,10 +1,11 @@
 package club.avence.spring.boot;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan("club.avence.spring.boot.mapper")
+/**
+ * @author c_qiancheng
+ */
 @SpringBootApplication(scanBasePackages="club.avence.spring.boot")
 public class Application {
 
